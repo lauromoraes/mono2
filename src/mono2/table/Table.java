@@ -21,6 +21,10 @@ public class Table {
 		this.tableSize = 0;
 	}
 	
+	public void topDownMine(Map<Integer, Set<Integer>> TT, Integer cMinsup, Integer excludedSize) {
+		
+	}
+	
 	public void readTable(String path) {
 		try(BufferedReader br = new BufferedReader(new FileReader(path))) {
 	        String line = br.readLine();

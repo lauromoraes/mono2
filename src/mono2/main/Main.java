@@ -8,6 +8,10 @@ import mono2.table.Table;
 public class Main {
 
 	public static void main(String[] args) {
+		driver1();
+	}
+	
+	public static void driver1() {
 		String path = "/home/lauro/Documents/eclipseWorkspace/mono2/src/mono2/input/input_paper.txt";
 		Set<Integer> rowSet = new HashSet<Integer>();
 		rowSet.add(1);
